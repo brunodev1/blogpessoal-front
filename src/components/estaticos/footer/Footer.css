@@ -1,22 +1,15 @@
-.box1{
-    background-color: #ffa2c4; 
-    height: 120px;
+.icons {
+    display: flex !important;
+    gap: 6px !important;
 }
 
-.box2 {
-    background-color: #e78cae;
-    height: 60px;
+.icons2 {
+    display: flex !important;
+    gap: 15px !important;
 }
 
-.redes {
-    font-size: 60px !important;
-    color: white;
-}
 
-.textos {
-    color: white;
-}
-
-.teste {
-    background-color: #e6ddbc;
+.img {
+    width: 40px;
+    height: 40px;
 }
