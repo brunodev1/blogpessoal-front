@@ -9,7 +9,7 @@ import ListaTema from './components/temas/listatema/ListaTema';
 import ListaPostagem from './components/postagens/listapostagem/ListaPostagem';
 import CadastroPost from './components/postagens/cadastroPost/CadastroPost';
 import CadastroTema from './components/temas/cadastroTema/CadastroTema';
-import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
+import DeletarPostagem from './components/postagens/deletarPostagem/deletarPostagem';
 import DeletarTema from './components/temas/deletarTema/DeletarTema';
 import { Provider } from 'react-redux';
 import store from './store/store';
@@ -36,7 +36,7 @@ function App() {
               <Route path="/formularioPostagem/:id" element={<CadastroPost />} />
               <Route path="/formularioTema" element={<CadastroTema />} />
               <Route path="/formularioTema/:id" element={<CadastroTema />} />
-              <Route path="/deletarPostagem/:id" element={<DeletarPostagem />} />
+              <Route path="/deletarPostagem/:id" element={<DeletarPostagem/>} />
               <Route path="/deletarTema/:id" element={<DeletarTema />} />
             </Routes>
           </div>
